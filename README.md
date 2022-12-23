@@ -1,5 +1,5 @@
 
-# 1 - Dependencies management {#1---dependencies-management}
+# 1 - Dependencies management
 
 ***git branch name:*** dependencies
 
@@ -243,7 +243,7 @@ Cant find Picard
     conda env export > environment.yml
     conda deactivate
 
-\#\#\#\#Enviroment.yml
+### Enviroment.yml
 
 
     name: homework
@@ -260,7 +260,7 @@ Cant find Picard
 
     prefix: /home/alkirdeev/anaconda3/envs/homework
 
-###Docker
+### Docker
 
 ### Install Docker
 
@@ -273,7 +273,7 @@ Cant find Picard
     nano Dockerfile
 
 
-###Dockerfile
+### Dockerfile
 
     FROM ubuntu:latest
     MAINTAINER "alkirdeev"
@@ -341,7 +341,7 @@ Cant find Picard
 4.  latest \--\> 20.04
 5.  Reduce the number of steps
 
-###Linter Labeled Optimazed Dockerfile
+### Linter Labeled Optimazed Dockerfile
 
     FROM ubuntu:20.04
     LABEL maintainer="alkirdeev"
@@ -427,7 +427,7 @@ Docker image:
 -   via raw Dockerfile - **2.01 Gb**
 -   via optimized Dockerfile - **1.32 Gb**
 
-###Dockerfile for conda
+### Dockerfile for conda
 
     FROM continuumio/anaconda3
     LABEL maintainer="alkirdeev"
