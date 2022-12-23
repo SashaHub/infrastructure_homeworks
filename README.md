@@ -140,7 +140,7 @@ authentication is generally considered more secure as it does not rely
 on the user remembering a password, which can be easily compromised or
 forgotten.
 
-## Problem \[6.5\] {#problem-65}
+## Problem \[6.5\]
 
 A real-life situation that occurred to me several times over the years.
 
@@ -366,7 +366,7 @@ Changed it couple of times, so right tracks are with \_new endings
       sudo /home/alkirdeev/miniconda3/bin/jbrowse add-track sorted_${i}_new.bed.gz --load copy --out /var/www/html/jbrowse
     done
 
-## Extra points \[1.5\] {#extra-points-15}
+## Extra points \[1.5\] 
 
 -   \[1\] Create a Docker container for running JBrowse 2. It should be
     a self-contained application, listening on the default HTTP port.
